@@ -1,0 +1,14 @@
+{
+  "name": "ts-references-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:actual": "tsc --build tsconfig.json",
+    "start:expected": "tsc -p non-composite/tsconfig.json",
+    "clean": "tsc --clean tsconfig.json"
+  },
+  "dependencies": {
+    "typescript": "5.1.6"
+  }
+}

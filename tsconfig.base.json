@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "paths": {
+      "@feature/one": ["./feature-one/index.ts"],
+      "@feature/two": ["./feature-two/index.ts"]
+    }
+  }
+}
